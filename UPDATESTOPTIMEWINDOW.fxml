@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Lab4.UIController">
+   <children>
+      <Label layoutX="221.0" layoutY="33.0" prefHeight="51.0" prefWidth="176.0" text="Update Any Stop Time Attributes" />
+      <Label layoutX="25.0" layoutY="112.0" prefHeight="17.0" prefWidth="284.0" text="Enter Stop Sequence of Stop Time You want to edit: " />
+      <Label layoutX="10.0" layoutY="112.0" prefHeight="17.0" prefWidth="17.0" text="1." />
+      <Label layoutX="9.0" layoutY="147.0" text="2." />
+      <Label layoutX="24.0" layoutY="147.0" text="Edit any attributes you wish, then press:" />
+      <TextField fx:id="stopSequenceToUpdate" layoutX="298.0" layoutY="108.0" prefHeight="25.0" prefWidth="89.0" />
+      <Button layoutX="392.0" layoutY="108.0" mnemonicParsing="false" onAction="#importStopTimeInfo" text="Import Stop Time Info" />
+      <Button layoutX="298.0" layoutY="143.0" mnemonicParsing="false" onAction="#updateStopTimeInfo" text="Save Changes" />
+      <Label layoutX="31.0" layoutY="181.0" text="Edit Arrival Time:" />
+      <TextField fx:id="updatedArrivalTime" editable="false" layoutX="31.0" layoutY="198.0" />
+      <Label layoutX="30.0" layoutY="236.0" text="Edit Departure Time:" />
+      <TextField fx:id="updatedDepartureTime" layoutX="31.0" layoutY="255.0" />
+      <Label layoutX="30.0" layoutY="284.0" text="Edit Drop-Off Type:" />
+      <TextField fx:id="updatedDropoffType" layoutX="31.0" layoutY="302.0" />
+      <Label layoutX="28.0" layoutY="327.0" text="Edit Pickup Type:" />
+      <TextField fx:id="updatedPickupType" layoutX="31.0" layoutY="344.0" />
+      <Label layoutX="276.0" layoutY="181.0" text="Edit Stop Headsign:" />
+      <TextField fx:id="updatedStopHeadsign" layoutX="276.0" layoutY="198.0" />
+      <Label layoutX="278.0" layoutY="236.0" text="Edit Stop Id:" />
+      <TextField fx:id="updatedStopId" layoutX="276.0" layoutY="255.0" />
+      <Label layoutX="279.0" layoutY="284.0" text="Edit Stop Sequence:" />
+      <TextField fx:id="updatedStopSequence" layoutX="276.0" layoutY="302.0" />
+      <Label layoutX="279.0" layoutY="327.0" text="Edit Trip Id:" />
+      <TextField fx:id="updatedTripId2" layoutX="276.0" layoutY="344.0" />
+   </children>
+</Pane>

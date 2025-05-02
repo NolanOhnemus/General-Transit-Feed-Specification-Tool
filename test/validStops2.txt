@@ -1,0 +1,6 @@
+stop_lat,stop_lon,stop_desc,stop_id,stop_name
+43.0444475,-87.9779369,this is a stop,6712,STATE & 5101 #6712
+43.0118594,-87.9152766,this is a stop,7661,INACTIVE Operator Relief Point #7661
+-88.0272162,43.0138967,this is a stop,1801,S92 & ORCHARD #1801
+-88.0142152,42.9809579,this is a stop,5006,MORGAN & S81 #5006
+-87.9214759,43.0732273,this is a stop,7652,N8 & CHAMBERS #7652

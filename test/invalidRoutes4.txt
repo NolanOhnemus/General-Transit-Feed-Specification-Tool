@@ -1,0 +1,6 @@
+route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color
+12,MCTS,12,Teutonia-Hampton,this is a route,3,https://www.google.com/,008345
+137,MCTS,137,House of Correction,this is a route,3,https://www.google.com/,008345,000000
+14,MCTS,14,Humboldt - Forest Home,this is a route,3,https://www.google.com/,008345,000000
+143,MCTS,143,Ozaukee County Express,this is a route,3,https://www.google.com/,008345,000000
+15,MCTS,15,Holton - Kinnickinnic,this is a route,3,https://www.google.com/,008345,000000

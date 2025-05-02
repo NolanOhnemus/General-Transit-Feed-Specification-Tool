@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Lab4.UIController">
+   <children>
+      <Label layoutX="226.0" layoutY="30.0" prefHeight="51.0" prefWidth="148.0" text="Update Any Stop Attributes" />
+      <Label layoutX="51.0" layoutY="92.0" prefHeight="17.0" prefWidth="184.0" text="Enter ID of Stop You want to edit: " />
+      <TextField fx:id="stopToUpdate" layoutX="265.0" layoutY="88.0" prefHeight="25.0" prefWidth="89.0" />
+      <Button layoutX="372.0" layoutY="88.0" mnemonicParsing="false" onAction="#importStopInfo" text="Import Stop Info" />
+      <Label layoutX="11.0" layoutY="161.0" text="Stop ID:" />
+      <Label layoutX="265.0" layoutY="230.0" text="Edit Stop Longitude:" />
+      <Label layoutX="262.0" layoutY="161.0" text="Edit Stop Latitude:" />
+      <Label layoutX="11.0" layoutY="297.0" text="Edit Stop Description:" />
+      <Label layoutX="7.0" layoutY="230.0" text="Edit Stop Name: " />
+      <TextField fx:id="updatedStopIdLabel" editable="false" layoutX="12.0" layoutY="188.0" prefHeight="25.0" prefWidth="128.0" />
+      <TextField fx:id="updatedStopNameLabel" layoutX="12.0" layoutY="257.0" prefHeight="25.0" prefWidth="128.0" />
+      <TextField fx:id="updatedStopDescriptionLabel" layoutX="14.0" layoutY="324.0" prefHeight="25.0" prefWidth="128.0" />
+      <TextField fx:id="updatedStopLong" layoutX="265.0" layoutY="268.0" prefHeight="25.0" prefWidth="128.0" />
+      <TextField fx:id="updatedStopLat" layoutX="262.0" layoutY="188.0" prefHeight="25.0" prefWidth="128.0" />
+      <Label layoutX="54.0" layoutY="127.0" />
+      <Label layoutX="51.0" layoutY="127.0" text="Edit any attributes you wish, then press:" />
+      <Button layoutX="265.0" layoutY="123.0" mnemonicParsing="false" onAction="#updateStopInfo" text="Save Changes" />
+      <Label layoutX="39.0" layoutY="92.0" text="1." />
+      <Label layoutX="39.0" layoutY="127.0" text="2." />
+   </children>
+</Pane>

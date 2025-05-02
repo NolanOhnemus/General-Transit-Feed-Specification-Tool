@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="424.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Lab4.UIController">
+   <children>
+      <GridPane layoutX="184.0" layoutY="90.0" prefHeight="298.0" prefWidth="404.0">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <TextArea fx:id="textArea" editable="false" prefHeight="308.0" prefWidth="404.0" />
+            <Pane fx:id="mapHolder" prefHeight="200.0" prefWidth="200.0" visible="false" />
+         </children>
+      </GridPane>
+      <Button fx:id="exportButton" disable="true" layoutX="22.0" layoutY="129.0" mnemonicParsing="false" onAction="#exportFiles" text="Export" />
+      <Button fx:id="importButton" layoutX="21.0" layoutY="64.0" mnemonicParsing="false" onAction="#importFiles" text="Import" />
+      <Label layoutX="33.0" layoutY="-29.0" text="Label" />
+      <Label fx:id="importLabel" disable="true" layoutX="117.0" layoutY="34.0" prefHeight="17.0" prefWidth="107.0" text="Imported: " />
+      <Button fx:id="viewStops" disable="true" layoutX="184.0" layoutY="55.0" mnemonicParsing="false" onAction="#viewStops" text="Stops" />
+      <Button fx:id="viewTrips" disable="true" layoutX="506.0" layoutY="55.0" mnemonicParsing="false" onAction="#viewTrips" text="Trips" />
+      <Button fx:id="viewRoutes" disable="true" layoutX="414.0" layoutY="55.0" mnemonicParsing="false" onAction="#viewRoutes" text="Routes" />
+      <Button fx:id="viewStopTimes" disable="true" layoutX="287.0" layoutY="55.0" mnemonicParsing="false" onAction="#viewStopTimes" text="Stop Times" />
+      <Button fx:id="routesWithStop" disable="true" layoutX="22.0" layoutY="198.0" mnemonicParsing="false" onAction="#routesForStop" prefHeight="25.0" prefWidth="98.0" text="Search Routes" />
+      <Button fx:id="searchNextTrip" disable="true" layoutX="22.0" layoutY="233.0" mnemonicParsing="false" onAction="#nextTripForStop" text="Next Trip" />
+      <TextField fx:id="searchBar" layoutX="21.0" layoutY="163.0" promptText="Enter ID" />
+      <Button fx:id="importAllButton" layoutX="20.0" layoutY="30.0" mnemonicParsing="false" onAction="#importAll" text="Import All" />
+      <Button fx:id="viewMap" disable="true" layoutX="20.0" layoutY="306.0" mnemonicParsing="false" onAction="#showMap" text="Route Map" />
+      <Button fx:id="exportAllButton" disable="true" layoutX="21.0" layoutY="97.0" mnemonicParsing="false" onAction="#exportAll" text="Export All" />
+      <Button fx:id="howManyTrips" disable="true" layoutX="22.0" layoutY="363.0" mnemonicParsing="false" onAction="#numberOfTrips" text="Number of Trips per Stop" />
+      <Button fx:id="editStopButton" disable="true" layoutX="188.0" layoutY="24.0" mnemonicParsing="false" onAction="#editStop" text="Edit" />
+      <Button fx:id="editTripButton" disable="true" layoutX="509.0" layoutY="24.0" mnemonicParsing="false" onAction="#editTrip" text="Edit" />
+      <Button fx:id="editRouteButton" disable="true" layoutX="422.0" layoutY="22.0" mnemonicParsing="false" onAction="#editRoute" text="Edit" />
+      <Button fx:id="stopTimeUpdateButton" disable="true" layoutX="306.0" layoutY="24.0" mnemonicParsing="false" onAction="#editStopTime" text="Edit" />
+      <Button fx:id="stopsWithRoute" disable="true" layoutX="22.0" layoutY="268.0" mnemonicParsing="false" onAction="#stopsForRoute" text="Search by Route" />
+      <Button fx:id="showTripButton" layoutX="184.0" layoutY="388.0" mnemonicParsing="false" onAction="#viewTrips" text="Show Trips" visible="false" />
+      <Button fx:id="distanceCheck" layoutX="274.0" layoutY="388.0" mnemonicParsing="false" onAction="#showDistance" text="Show Distance" visible="false" />
+      <Button fx:id="showSpeed" disable="true" layoutX="388.0" layoutY="388.0" mnemonicParsing="false" onAction="#showSpeed" text="Show Speed" visible="false" />
+   </children>
+</Pane>
