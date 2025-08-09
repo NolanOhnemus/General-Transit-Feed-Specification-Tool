@@ -11,7 +11,7 @@ This project delivers a comprehensive Java-based tool for visualizing public tra
 
 ## Key Features
 
-- **GTFS Data Import**: Upload and parse foundational GTFS components—stops, stop times, trips, and routes.
+- **GTFS Data Import**: Upload and parse foundational GTFS components: stops, stop times, trips, and routes.
 - **Visual Mapping**: Display transit routes on a geographic interface, providing spatial and temporal views of transit operations.
 - **Customization Options**:
   - Assign visual identifiers to routes (numbers, colors).
